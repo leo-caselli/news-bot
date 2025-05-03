@@ -54,7 +54,5 @@ for sec, items in sections.items():
     bulletin.append("")                 # blank line
 BODY = "\n".join(bulletin).strip()
 
-# 6️⃣  Push via Shortcuts
-import base64, json, urllib.parse
-req = urllib.parse.urlencode({"body": BODY})
-requests.get(os.environ["PUSH_URL"] + "?" + req)
+with open("digest.txt", "w", encoding="utf-8") as f:
+    f.write(BODY)
