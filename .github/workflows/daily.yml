@@ -2,6 +2,7 @@ name: Daily News Digest
 on:
   schedule:
     - cron:  '0 6 * * *'   # 06:00 UTC ≈ 08:00 Europe/Rome (handles DST)
+  workflow_dispatch: 
 permissions:
   contents: write   
 jobs:
