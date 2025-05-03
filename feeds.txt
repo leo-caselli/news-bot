@@ -1,0 +1,8 @@
+https://www.internazionale.it/rss
+https://www.tpi.it/feed
+http://feeds.bbci.co.uk/news/world/rss.xml
+https://www.theguardian.com/world/rss
+http://feeds.washingtonpost.com/rss/world
+https://xml2.corriereobjects.it/rss/esteri.xml
+https://www.ansa.it/sito/ansait_rss.xml
+https://apnews.com/rss
